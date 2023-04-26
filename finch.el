@@ -26,6 +26,13 @@
 ;;      - Find and build a SCHEME within a PROJECT file (.xcodeproj or .xcworkspace file)
 ;;      - Find and run tests
 
+;; 1. Select A Project
+;; 2. Select A Scheme
+;; 3. Select A Simulator
+;; 4. Build scheme
+;; 5. Install app
+;; 6. Launch app
+
 ;;; Code:
 
 ;; code goes here
@@ -37,19 +44,44 @@
 ;; VARS
 
 ;; FILES
-(defun finch-list-project-file (directory)
-  "Lists out all Xcode project files in DIRECTORY. Only supports Xcodeproj now."
+(defun -finch-list-project-file (directory)
+  "Lists out all Xcode project files in DIRECTORY."
   (interactive)
   (f-entries directory (lambda (file) (or (s-matches? "xcworkspace" file)(s-matches? "xcodeproj" file)))))
+
+(defun finch-select-project ()
+  "Sets the 'finch-selected-project' variable from a users selection."
+  (interactive)
+  (unless (boundp 'finch-selected-project)
+    (setq dir (read-string "Enter a directory: ")))
+  (setq finch-selected-project (car (completing-read-multiple "Select project: " (-finch-list-project-file dir)))))
 
 ;; SCHEMES
 (defun finch-list-schemes (project)
   "Lists all schemes found in PROJECT."
   (interactive)
+  (message (format "xcodebuild -list -json -%s %s 2>/dev/null"
+                   (if
+                       (s-matches? "xcworkspace" project)
+                       "workspace"
+                     "project")
+                   project))
   (cdr (assoc 'schemes (assoc 'project
                               (json-read-from-string
                                (shell-command-to-string
-                                (format "xcodebuild -list -json -project %s 2>/dev/null" project)))))))
+                                (format "xcodebuild -list -json -%s %s 2>/dev/null"
+                                        (if
+                                            (s-matches? "xcworkspace" project)
+                                            "workspace"
+                                          "project")
+                                        project)))))))
+
+(defun finch-select-scheme ()
+  "Sets the 'finch-selected-scheme' variable from a users selection."
+  (interactive)
+  (unless (boundp 'finch-selected-project)
+    (finch-select-project))
+  (setq finch-selected-scheme (car (completing-read-multiple "Select scheme: " (finch-list-schemes finch-selected-project)))))
 
 ;; SIMULATORS
 ;; This "works" in so much as it returns a list of simulators, but displaying this is going to be a pain.
@@ -69,6 +101,18 @@
   (shell-command-to-string
    (format "open -a 'Simulator' --args -CurrentDeviceUDID %s" uuid)))
 
+;; RUNTIMES
+(defun -finch-get-runtimes ()
+  (interactive)
+  (mapcar (lambda (elem)
+            (message "%s" (car elem)))
+          (-finch-get-simulators)))
+
+(defun finch-select-runtime ()
+  "Sets the 'finch-selected-runtime' variable from a users selection."
+  (interactive)
+  (setq finch-selected-runtime (car (completing-read-multiple "Select runtime: " (-finch-get-runtimes)))))
+
 ;; BUILD
 (defun finch-build-target (project scheme sdk)
   "Builds a given SCHEME for a PROJECT for SDK."
@@ -84,6 +128,7 @@
   (with-temp-buffer
     (shell-command
      (format "xcrun simctl install booted %s" app))))
+
 ;; LAUNCH
 (defun finch-launch (app)
   "Launches APP on booted simulator."
@@ -93,28 +138,33 @@
      (format "xcrun simctl launch booted %s" app))))
 ;; xcrun simctl install booted $APP_PATH
 ;; INTERNAL
-;; TODO: Code Signinga
+;; TODO: Code Signing
 ;; TODO: SDKs
 ;;      xcodebuild -showsdks -json
+;; UTILS
+(defun -print-type (elem)
+  (message "Type of my-var: %s" (type-of (symbol-value 'elem))))
+
 
 (provide 'finch)
 ;;; finch.el ends here
 
 ;; Examples
-(defvar finch-sample-project-file (car (finch-list-project-file "SampleProject")))
-;; Get the schemes
-;; (defvar finch-sample-schemes (finch-list-schemes finch-sample-project-file))
-(defvar finch-sample-schemes "SampleProject")
-;; Get the simulators, again only selecting the top of the list
 ;; TODO, get the simulators working
-(defvar finch-simulators (finch-get-simulators))
-;; TODO Get the SDKs
-(defvar finch-sample-sdk "iphonesimulator16.2")
-;; Display the simulators
-(finch-boot-simulator "2DEE1AF4-5BC0-44A7-929C-8A2B4AEEDDD3")
-;; Now pass the PROJECT and the SCHEME to the build command
-(finch-build-target finch-sample-project-file finch-sample-schemes finch-sdk)
 
-;; Run the app
-(finch-install "SampleProject/build/SampleProject.app")
-(finch-launch "com.adamf.SampleProject")
+(defun finch-get-simulators ()
+  (interactive)
+  (mapcar (lambda (elem)
+            (cdr elem))
+          (-finch-get-simulators)))
+
+;; TODO Get the SDKs
+;; (defvar finch-sample-sdk "iphonesimulator16.1")
+;; ;; Display the simulators
+;; (finch-boot-simulator "2DEE1AF4-5BC0-44A7-929C-8A2B4AEEDDD3")
+;; ;; Now pass the PROJECT and the SCHEME to the build command
+;; (finch-build-target finch-sample-project-file finch-sample-schemes finch-sdk)
+;;
+;; ;; Run the app
+;; (finch-install "SampleProject/build/SampleProject.app")
+;; (finch-launch "com.adamf.SampleProject")

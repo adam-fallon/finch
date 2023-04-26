@@ -1,0 +1,339 @@
+{
+  "devices" : {
+    "com.apple.CoreSimulator.SimRuntime.watchOS-9-1" : [
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/70A1256A-56E1-4470-B2DD-98618612EADD\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/70A1256A-56E1-4470-B2DD-98618612EADD",
+        "udid" : "70A1256A-56E1-4470-B2DD-98618612EADD",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-5-40mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 5 (40mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/865E6D4A-1883-4EB3-BD89-A41141EB9180\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/865E6D4A-1883-4EB3-BD89-A41141EB9180",
+        "udid" : "865E6D4A-1883-4EB3-BD89-A41141EB9180",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-5-44mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 5 (44mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/5BDD64B7-376D-445A-AABF-924F21094432\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/5BDD64B7-376D-445A-AABF-924F21094432",
+        "udid" : "5BDD64B7-376D-445A-AABF-924F21094432",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-6-40mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 6 (40mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/58DDA476-76F2-46AE-BA00-DBC2380C2FE7\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/58DDA476-76F2-46AE-BA00-DBC2380C2FE7",
+        "udid" : "58DDA476-76F2-46AE-BA00-DBC2380C2FE7",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-6-44mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 6 (44mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/C82EA106-CE21-45F1-BE81-2A53DA1300A3\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/C82EA106-CE21-45F1-BE81-2A53DA1300A3",
+        "udid" : "C82EA106-CE21-45F1-BE81-2A53DA1300A3",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-7-41mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 7 (41mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/89DA9944-2D82-4802-B044-58758A044BC8\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/89DA9944-2D82-4802-B044-58758A044BC8",
+        "udid" : "89DA9944-2D82-4802-B044-58758A044BC8",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-7-45mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 7 (45mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/1AA18FD9-7DB1-478E-8399-074B7C7AC092\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/1AA18FD9-7DB1-478E-8399-074B7C7AC092",
+        "udid" : "1AA18FD9-7DB1-478E-8399-074B7C7AC092",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (40mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/A09E5725-784A-436D-B5CA-8627C95EAA93\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/A09E5725-784A-436D-B5CA-8627C95EAA93",
+        "udid" : "A09E5725-784A-436D-B5CA-8627C95EAA93",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (44mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/1A00A1D4-394B-44A9-8AF0-F285218D1DF7\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/1A00A1D4-394B-44A9-8AF0-F285218D1DF7",
+        "udid" : "1A00A1D4-394B-44A9-8AF0-F285218D1DF7",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-41mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 8 (41mm)"
+      },
+      {
+        "lastBootedAt" : "2023-03-19T17:13:07Z",
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/11350C09-8A94-4069-BF4F-A43F9BE523CC\/data",
+        "dataPathSize" : 1903378432,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/11350C09-8A94-4069-BF4F-A43F9BE523CC",
+        "udid" : "11350C09-8A94-4069-BF4F-A43F9BE523CC",
+        "isAvailable" : true,
+        "logPathSize" : 512000,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-45mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 8 (45mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/1872C32D-211D-4AB1-A606-2E2D80419A80\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/1872C32D-211D-4AB1-A606-2E2D80419A80",
+        "udid" : "1872C32D-211D-4AB1-A606-2E2D80419A80",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-49mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Ultra (49mm)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.watchOS-9-4" : [
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/A4F299FD-40FE-4807-A98B-DB1CD0470EA0\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/A4F299FD-40FE-4807-A98B-DB1CD0470EA0",
+        "udid" : "A4F299FD-40FE-4807-A98B-DB1CD0470EA0",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-5-40mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 5 (40mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/39C2C972-730B-4584-9279-62E59C77FFAA\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/39C2C972-730B-4584-9279-62E59C77FFAA",
+        "udid" : "39C2C972-730B-4584-9279-62E59C77FFAA",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-5-44mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 5 (44mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/05969C60-058B-42C7-9608-C5D592EE3955\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/05969C60-058B-42C7-9608-C5D592EE3955",
+        "udid" : "05969C60-058B-42C7-9608-C5D592EE3955",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-6-40mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 6 (40mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/41648F34-45AC-40A7-84CB-786D1BA34BA9\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/41648F34-45AC-40A7-84CB-786D1BA34BA9",
+        "udid" : "41648F34-45AC-40A7-84CB-786D1BA34BA9",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-6-44mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 6 (44mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/9110FD6E-28A7-4C44-8AEF-BB97D07F70BE\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/9110FD6E-28A7-4C44-8AEF-BB97D07F70BE",
+        "udid" : "9110FD6E-28A7-4C44-8AEF-BB97D07F70BE",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-7-41mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 7 (41mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/DCAB11C4-6D0E-477D-A7AC-44E51F541AB9\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/DCAB11C4-6D0E-477D-A7AC-44E51F541AB9",
+        "udid" : "DCAB11C4-6D0E-477D-A7AC-44E51F541AB9",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-7-45mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 7 (45mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/76042A00-C4AF-40C5-9789-3CFDDDA403FD\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/76042A00-C4AF-40C5-9789-3CFDDDA403FD",
+        "udid" : "76042A00-C4AF-40C5-9789-3CFDDDA403FD",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (40mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/80F22C8C-5B45-4B97-BC43-29F4173C1222\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/80F22C8C-5B45-4B97-BC43-29F4173C1222",
+        "udid" : "80F22C8C-5B45-4B97-BC43-29F4173C1222",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (44mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/741FB0B7-48C7-45F0-A88B-909FBEC2D00E\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/741FB0B7-48C7-45F0-A88B-909FBEC2D00E",
+        "udid" : "741FB0B7-48C7-45F0-A88B-909FBEC2D00E",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-41mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 8 (41mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/3032C0EB-E057-48FF-BEE6-0011FC1098B9\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/3032C0EB-E057-48FF-BEE6-0011FC1098B9",
+        "udid" : "3032C0EB-E057-48FF-BEE6-0011FC1098B9",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-45mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 8 (45mm)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/A15636D2-F9DA-421B-9C78-1270FE3A503F\/data",
+        "dataPathSize" : 0,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/A15636D2-F9DA-421B-9C78-1270FE3A503F",
+        "udid" : "A15636D2-F9DA-421B-9C78-1270FE3A503F",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-49mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Ultra (49mm)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-16-1" : [
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/9B8268FE-EB20-4D01-896B-4B0229CDC6AC\/data",
+        "dataPathSize" : 13316096,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/9B8268FE-EB20-4D01-896B-4B0229CDC6AC",
+        "udid" : "9B8268FE-EB20-4D01-896B-4B0229CDC6AC",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation",
+        "state" : "Shutdown",
+        "name" : "iPhone SE (3rd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/B31AFC34-627E-495E-866B-11324918D057\/data",
+        "dataPathSize" : 13316096,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/B31AFC34-627E-495E-866B-11324918D057",
+        "udid" : "B31AFC34-627E-495E-866B-11324918D057",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-14",
+        "state" : "Shutdown",
+        "name" : "iPhone 14"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/46D4128E-B89D-46FA-992E-55004B7C3332\/data",
+        "dataPathSize" : 13316096,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/46D4128E-B89D-46FA-992E-55004B7C3332",
+        "udid" : "46D4128E-B89D-46FA-992E-55004B7C3332",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-14-Plus",
+        "state" : "Shutdown",
+        "name" : "iPhone 14 Plus"
+      },
+      {
+        "lastBootedAt" : "2023-04-26T10:01:08Z",
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/895836E2-E7A7-423A-87EF-1EDEB4605C20\/data",
+        "dataPathSize" : 43746951168,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/895836E2-E7A7-423A-87EF-1EDEB4605C20",
+        "udid" : "895836E2-E7A7-423A-87EF-1EDEB4605C20",
+        "isAvailable" : true,
+        "logPathSize" : 1536000,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-14-Pro",
+        "state" : "Shutdown",
+        "name" : "iPhone 14 Pro"
+      },
+      {
+        "lastBootedAt" : "2023-04-26T21:10:29Z",
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/936814AC-898E-4448-961B-D4827F11F2D1\/data",
+        "dataPathSize" : 386625536,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/936814AC-898E-4448-961B-D4827F11F2D1",
+        "udid" : "936814AC-898E-4448-961B-D4827F11F2D1",
+        "isAvailable" : true,
+        "logPathSize" : 73728,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-14-Pro-Max",
+        "state" : "Shutdown",
+        "name" : "iPhone 14 Pro Max"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/6E51E0EE-0197-44B6-A262-B9185DBD94D5\/data",
+        "dataPathSize" : 13316096,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/6E51E0EE-0197-44B6-A262-B9185DBD94D5",
+        "udid" : "6E51E0EE-0197-44B6-A262-B9185DBD94D5",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-5th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad Air (5th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/85BFE67D-06D9-47DC-B6E6-B87AC75C4CC9\/data",
+        "dataPathSize" : 13316096,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/85BFE67D-06D9-47DC-B6E6-B87AC75C4CC9",
+        "udid" : "85BFE67D-06D9-47DC-B6E6-B87AC75C4CC9",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-10th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad (10th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/EDDA90AC-21DE-4481-9003-CF828AF61D78\/data",
+        "dataPathSize" : 13316096,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/EDDA90AC-21DE-4481-9003-CF828AF61D78",
+        "udid" : "EDDA90AC-21DE-4481-9003-CF828AF61D78",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad mini (6th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/F74D9D40-6576-48C8-BE74-EE88BC995213\/data",
+        "dataPathSize" : 13316096,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/F74D9D40-6576-48C8-BE74-EE88BC995213",
+        "udid" : "F74D9D40-6576-48C8-BE74-EE88BC995213",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-4th-generation-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro (11-inch) (4th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/adamf\/Library\/Developer\/CoreSimulator\/Devices\/8550CCE5-61DF-4719-9EC8-8590315FF6F0\/data",
+        "dataPathSize" : 13316096,
+        "logPath" : "\/Users\/adamf\/Library\/Logs\/CoreSimulator\/8550CCE5-61DF-4719-9EC8-8590315FF6F0",
+        "udid" : "8550CCE5-61DF-4719-9EC8-8590315FF6F0",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-12-9-inch-6th-generation-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro (12.9-inch) (6th generation)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-16-4" : [
+
+    ]
+  }
+}
